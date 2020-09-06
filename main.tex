@@ -55,9 +55,10 @@ R/ La memoria del computador es un dispositivo de almacenamiento electrónico, c
 
 \vspace{0.5cm}
 2. Mencione los tipos de memoria que conoce y haga una pequeña descripción de cada tipo.
+
 R/ Los tipos de memoria que conozco son la memoria RAM (DRAM, SRAM), la memoria ROM, la memoria caché(L1, L2, L3), la memoria virtual y el disco duro.
 
-\vspace{0.5cm}
+%\vspace{0.5cm}
 
 \begin{itemize}
 
@@ -67,18 +68,25 @@ R/ Los tipos de memoria que conozco son la memoria RAM (DRAM, SRAM), la memoria 
     
     
     \item Memoria RAM:
+    Es la encargada de almacenar la información requerida para que el microprocesador realice las funciones pertinentes. Es más veloz que el disco duro, sin embargo tiene menor cantidad de direcciones de memoria.
     \begin{itemize}
         \item Memoria DRAM:
-        Es la encargada de 
+        Es la memoria RAM dinámica. En esta hay un capacitor y un transistor. El capacitor, si tiene información '1', se energiza constantemente para no perder esta información, y por eso recibe el nombre de memoria RAM dinámica.
         \item Memoria SRAM:
+        Es la memoria RAM estática. En esta cada celda de bit está compuesta por cuatro o seis transistores, con los cuales no es necesario recargando las celdas con información '1' constantemente como sucede con la memoria dinámica. Esta tecnología de la memoria SRAM permite más velocidad y menos cantidad de bits de almacenamiento; y por tener esta mayor velocidad esta tecología se utiliza para las memorias caché.
     \end{itemize}
 
 
     \item Memoria caché:
+    Cuando el microprocesador detecta una información que se repite constantemente en la memoria RAM, almacena almacena una copia de esta en la memoria caché, la cual es más rápida, aunque tiene menor capacidad que la memoria RAM. Debido a su velocidad, se almacena allí la información que más se utiliza, para generar un procesamiento más eficiente. Esta característica también la hace la más costosa de las memorias de los computadores. Tiene 3 niveles.
+    Tiene 3 etapas 
     \begin{itemize}
         \item L1:
+        Es el nivel más rápido y con menor capacidad de almacenamiento. Se encuentra ubicado dentro del microprocesador.
         \item L2: 
+        Este nivel posee una velocidad menor que el nivel L1 y mayor que el nivel L3, y una capacidad mayor al nivel L1 y menor al nivel L3. Hoy en día se encuentra ubicado dentro del microprocesador, sin embargo anteriormente se envontraba en la placa madre (al lado del microprocesador).
         \item L3:
+        Entre los 3 niveles de la memoria caché, es el nivel más lento y de mayor capacidad de almacenamiento.
     \end{itemize}
     
 
@@ -124,9 +132,22 @@ R/ Los tipos de memoria que conozco son la memoria RAM (DRAM, SRAM), la memoria 
 \vspace{0.5cm}
 3. Describa la manera como se gestiona la memoria en un computador.
 
+R/ Al prender el computador, la memoria ROM hace las distinciones necesarias para que el microprocesador reconozca toda la información necesaria para poder trabajar. Evalúa el estado del computador, reconoce los programas en él y el sistema operativo que posee, y llena de información pertinente a la memoria RAM. Así, el procesador tendrá la información requerida para trabajar.
+
+A partir de ese reconocimiento general del estado y de la información necesaria para el manejo del computador, el microprocesador tendrá una lectura y escritura constante de las direcciones de memoria RAM sobre todo lo que se efectúe (la información recibida del teclado, el mouse, etcétera; la información de la interfaz, las ordenes que recibe para poder utilizar correctamente el software, etcétera). Así mismo, se tendrá una lectura y escritura en las demás memorias del computador cuando estas se requieran (lecturas y escrituras que no serán constantes como en el caso de la memoria RAM y el microprocesador). La información que compartirá el microprocesador con las diferentes memorias del computador se realizará por medio del bus de datos y de la gestión realizada por la placa madre.
+
+Las memorias contienen direcciones de memoria que son las encargadas de recibir información binaria y las cuales tienen columnas y filas. Al leer o escribir una de estas primero se buscará la dirección de la fila y, al obtener esta, se buscará la dirección de la columna para realizar las acciones.
+
+Cada acción realizada en la memoria se mide en número de ciclos de reloj del sistema. Y el número de ciclos de reloj que se necesitan para cada acción dependerá de la velocidad de la memoria y del bus de datos. Una medida de esta velocidad o eficiencia de la lectura o escritura de las memorias es la latencia.
+
+
 \vspace{0.5cm}
 4. ¿Qué hace que una memoria sea más rápida que otra? ¿Por qué esto es importante?
 
+.................R/El tipo de tecnología que utilizan y el bus de datos. (????????)
+
+
+%La capacidad de la memoria RAM y los hz del bus de datos, ya que si la memoria RAM no tiene una capacidad suficiente para soportar la cantidad de información que se utilizará en 
 \vspace{0.5cm}
 
 
