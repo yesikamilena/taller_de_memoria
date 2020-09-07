@@ -31,10 +31,10 @@
         \vspace{0.8cm}
             
         \Large
-        Despartamento de Ingeniería Electrónica y Telecomunicaciones\\
+        Departamento de Ingeniería Electrónica y Telecomunicaciones\\
         Universidad de Antioquia\\
         Medellín\\
-        ................Septiembre de 2020
+        07 de Septiembre de 2020
             
     \end{center}
 \end{titlepage}
@@ -43,10 +43,11 @@
 
 \section{Sección introductoria}
 
-En este escrito veremos las respuestas personales a cuatro preguntas relacionadas con las memorias de computadores. Estas respuestas son dadas con respecto a mi propia perspectiva y conocimiento, y se relacionan con: la definición, los tipos que reconozco, la gestion en los computadores y la eficiencia de las memorias de computadores.
+En este escrito veremos las respuestas personales a cuatro preguntas relacionadas con las memorias de computadores. Estas respuestas son dadas con respecto a mi propia perspectiva y conocimiento, y se relacionan con: la definición, los tipos que reconozco, la gestión en los computadores y la eficiencia de las memorias de computadores.
 
 \section{Sección de contenido} \label{contenido}
 
+\vspace{0.8cm}
 1. Defina que es la memoria del computador.
 
 \vspace{0.3cm}
@@ -56,7 +57,7 @@ R/ La memoria del computador es un dispositivo de almacenamiento electrónico, c
 2. Mencione los tipos de memoria que conoce y haga una pequeña descripción de cada tipo.
 
 \vspace{0.3cm}
-R/ Los tipos de memoria que conozco son el disco duro, la memoria RAM (DRAM, SRAM), la la memoria caché(L1, L2, L3), la memoria virtual y la memoria ROM.
+R/ Los tipos de memoria que conozco son el disco duro, la memoria RAM (DRAM, SRAM), la memoria caché (L1, L2, L3), la memoria virtual y la memoria ROM.
 
 \begin{itemize}
 
@@ -64,7 +65,7 @@ R/ Los tipos de memoria que conozco son el disco duro, la memoria RAM (DRAM, SRA
     Es un dispositivo de almacenamiento a largo plazo. Aquí se guardan la información guardada, las aplicaciones, el sistema operativo, información que no se está utilizando por el microprocesador en el momento, etcétera. Es el dispositivo de almacenamiento que tiene más capacidad y menor velocidad en el computador.
     
     \item Memoria RAM:
-    Es la encargada de almacenar la información requerida para que el microprocesador realice las funciones pertinentes. Es más veloz que el disco duro, sin embargo tiene menor cantidad de direcciones de memoria.
+    Es la encargada de almacenar la información requerida para que el microprocesador realice las funciones pertinentes. Es más veloz que el disco duro; sin embargo, tiene menor cantidad de direcciones de memoria.
     
     \begin{itemize}
     
@@ -72,13 +73,13 @@ R/ Los tipos de memoria que conozco son el disco duro, la memoria RAM (DRAM, SRA
         Es la memoria RAM dinámica. En esta hay un capacitor y un transistor. El capacitor, si tiene información '1', se energiza constantemente para no perder esta información, y por eso recibe el nombre de memoria RAM dinámica.
         
         \item Memoria SRAM:
-        Es la memoria RAM estática. En esta cada celda de bit está compuesta por cuatro o seis transistores, con los cuales no es necesario recargando las celdas con información '1' constantemente como sucede con la memoria dinámica. Esta tecnología de la memoria SRAM permite más velocidad y menos cantidad de bits de almacenamiento; y por tener esta mayor velocidad esta tecología se utiliza para las memorias caché.
+        Es la memoria RAM estática. En esta cada celda de bit está compuesta por cuatro o seis transistores, con los cuales no es necesario recargando las celdas con información '1' constantemente como sucede con la memoria dinámica. Esta tecnología de la memoria SRAM permite más velocidad y menos cantidad de bits de almacenamiento; y por tener esta mayor velocidad esta tecnología se utiliza para las memorias caché.
     
     \end{itemize}
 
 
     \item Memoria caché:
-    Cuando el microprocesador detecta una información que se repite constantemente en la memoria RAM, almacena almacena una copia de esta en la memoria caché, la cual es más rápida, aunque tiene menor capacidad que la memoria RAM. Debido a su velocidad, se almacena allí la información que más se utiliza, para generar un procesamiento más eficiente. Esta característica también la hace la más costosa de las memorias de los computadores. Tiene 3 niveles.
+    Cuando el microprocesador detecta una información que se repite constantemente en la memoria RAM, almacena una copia de esta en la memoria caché, la cual es más rápida, aunque tiene menor capacidad que la memoria RAM. Debido a su velocidad, se almacena allí la información que más se utiliza, para generar un procesamiento más eficiente. Esta característica también la hace la más costosa de las memorias de los computadores. Tiene 3 niveles.
     Tiene 3 etapas:
     
     \begin{itemize}
@@ -87,7 +88,7 @@ R/ Los tipos de memoria que conozco son el disco duro, la memoria RAM (DRAM, SRA
         Es el nivel más rápido y con menor capacidad de almacenamiento. Se encuentra ubicado dentro del microprocesador.
         
         \item L2: 
-        Este nivel posee una velocidad menor que el nivel L1 y mayor que el nivel L3, y una capacidad mayor al nivel L1 y menor al nivel L3. Hoy en día se encuentra ubicado dentro del microprocesador, sin embargo anteriormente se envontraba en la placa madre (al lado del microprocesador).
+        Este nivel posee una velocidad menor que el nivel L1 y mayor que el nivel L3, y una capacidad mayor al nivel L1 y menor al nivel L3. Hoy en día se encuentra ubicado dentro del microprocesador; sin embargo, anteriormente se encontraba en la placa madre (al lado del microprocesador).
         
         \item L3:
         Entre los 3 niveles de la memoria caché, es el nivel más lento y de mayor capacidad de almacenamiento.
@@ -95,13 +96,13 @@ R/ Los tipos de memoria que conozco son el disco duro, la memoria RAM (DRAM, SRA
     \end{itemize}
     
     \item Memoria virtual:
-    Es un almacenamiento ubicado en una porción del disco duro dedicada exclusivamente a la información en ejecución que se utilizan menos o que ocupan espacio innecesario en las limitadas direcciones de memoria RAM.
+    Es un almacenamiento ubicado en una porción del disco duro, dedicada exclusivamente a la información en ejecución que se utilizan menos o que ocupan espacio innecesario en las limitadas direcciones de memoria RAM.
     Tiene una extensión .SWP y se usa para información que se está utilizando (no en el momento, pero que se espera que se utilizarán).
 
     \item Memoria ROM (Read Only Memory):
-    Es una memoria que no se puede sobreescribir.
+    Es una memoria que no se puede sobrescribir.
     Esta está ubicada en la placa madre y es la encargada de darle ordenes al microprocesador para que este inicie correctamente la computadora.
-    Con estas ordenes se logra:
+    Con estas órdenes se logra:
     
         \begin{itemize}
         
@@ -109,7 +110,7 @@ R/ Los tipos de memoria que conozco son el disco duro, la memoria RAM (DRAM, SRA
             Hacer un chequeo de funcionamiento de los componentes más importantes del sistema (utilizando la primera instrucción que se llama POST).
             
         \item 
-            Que el controlador de memoria haga un chequeo de todas las direcciones de memoria para ver que no hayan daños físicos en sus chips.
+            Que el controlador de memoria haga un chequeo de todas las direcciones de memoria para ver que no haya daños físicos en sus chips.
             
         \item 
             Proveer información acerca de los dispositivos de almacenamiento con que cuenta el computador.
@@ -118,7 +119,7 @@ R/ Los tipos de memoria que conozco son el disco duro, la memoria RAM (DRAM, SRA
             Obtener información sobre cuál es el disco de arranque que contiene el sistema operativo, sobre dispositivos con que cuenta el sistema, además de otros tipos de información.
             
         \item
-            Que que el microprocesador sepa dónde encontrar las instrucciones que necesita.
+            Que el microprocesador sepa dónde encontrar las instrucciones que necesita.
             
         \item
             Que el microprocesador sepa de la existencia del disco duro de arranque.
@@ -152,38 +153,34 @@ Cada acción realizada en la memoria se mide en número de ciclos de reloj del s
 \vspace{0.3cm}
 R/ El tipo de tecnología que utilizan y por el bus de datos.
 
-Es importante conocer esto porque así podemos indagar sobre posibles soluciones a problemas respecto a nuestros dispositivos  y respecto a nuestra carrera de la electrónica, conociendo usos de los componentes electrónicos para así mejorarlos o diseñar otros dispositivos que utilicen las mismas bases.
+Es importante conocer esto porque así podemos indagar sobre posibles soluciones a problemas respecto a nuestros dispositivos y respecto a nuestra carrera de la electrónica, conociendo usos de los componentes electrónicos para así mejorarlos o diseñar otros dispositivos que utilicen las mismas bases.
 
 \vspace{0.5cm}
 
 \section{Conclusiones} \label{conclulsion}
 
-La memoria de computador:
     \begin{itemize}
+    
         \item
-            Es un dispositivo de almacenamiento electrónico.
+            La memoria de computador es un dispositivo de almacenamiento electrónico.
+            
         \item 
-            Está conformado por direcciones de memoria las cuales están compuestas principalmente.
-            
-            
-            
+            Las memorias de computador están conformadas por direcciones de memoria.
             
         \item 
             Las direcciones de memoria están compuestas principalmente por transistores y capacitores.
+            
         \item 
-             El capacitor de cada direccion de memoria almacenan información binaria, que sería representada por la cantidad de voltaje que este tenga almacenado en su interior. Si su voltaje se aproxima al valor de tierra, se representa como '0' y si su voltaje se aproxima a un valor determinado diferente de tierra, se representa como un '1'.
+             El capacitor de cada dirección de memoria almacena información binaria, que sería representada por la cantidad de voltaje que este tenga almacenado en su interior. Si su voltaje se aproxima al valor de tierra, se representa como '0' y si su voltaje se aproxima a un valor determinado diferente de tierra, se representa como un '1'.
              
         \item
             La memoria ROM es la única memoria a la que no se le puede escribir información, sólo leerla.
              
-            
         \item
-            El disco duro es un dispositivo de almacenamiento a largo plazo, mientras que las memorias RAM, caché y virtual son dispositivos de almacenamiento temporales.             
-             
+            El disco duro es un dispositivo de almacenamiento a largo plazo, mientras que las memorias RAM, caché y virtual son dispositivos de almacenamiento temporales.      
              
         \item
-            El orden de velocidad de mayor a menor de los dispositivos de almacenamiento con información versátiles es: memoria caché L1, L2, y L3; memoria RAM; memoria virtual; disco duro.
-            
+            El orden de velocidad de mayor a menor de los dispositivos de almacenamiento con información versátil es: memoria caché L1, L2, y L3; memoria RAM; memoria virtual; disco duro.
             
         \item
             En las memorias de computadores, la capacidad de almacenamiento es inversamente proporcional a la velocidad.
@@ -191,32 +188,23 @@ La memoria de computador:
         \item
             Las memorias de computador temporales son más veloces conforme a la cantidad de veces que se utiliza la información que se almacena en ella.     
             
-
         \item
             La memoria RAM está en constante lectura y escritura con el microprocesador, desde que el computador enciende hasta que se apaga.
-        
-        \item
-            La memoria ROM es la encargada de dar las instrucciones pertinentes para el inicio correctamente del computador.
             
+        \item
+            La memoria ROM es la encargada de dar las instrucciones pertinentes para el inicio correcto del computador.
             
         \item
             La memoria SRAM es una memoria a la cual no se le recarga constantemente el capacitor. Esto permite que sea más veloz que la memoria DRAM y por esto se usa para la memoria caché.    
         
-        
         \item
-            El bus de datos es un factor escencial para determinar la velocidad de lectura o escritura de la información que posee la memoria de computador.
-            
-
+            El bus de datos es un factor esencial para determinar la velocidad de lectura o escritura de la información que posee la memoria de computador.
             
     \end{itemize}
-
-
-
 
 \bibliographystyle{IEEEtran}
 \bibliography{references}
 
 \cite{referencia}
-
 
 \end{document}
